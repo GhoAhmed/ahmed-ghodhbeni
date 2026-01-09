@@ -18,21 +18,21 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Développeurs", imgPath: "/images/code.svg" },
+  { text: "Étudiants", imgPath: "/images/concepts.svg" },
+  { text: "Designers", imgPath: "/images/designs.svg" },
+  { text: "Innovateurs", imgPath: "/images/ideas.svg" },
+  { text: "Développeurs", imgPath: "/images/code.svg" },
+  { text: "Étudiants", imgPath: "/images/concepts.svg" },
+  { text: "Designers", imgPath: "/images/designs.svg" },
+  { text: "Innovateurs", imgPath: "/images/ideas.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 2, suffix: "+", label: "Années d'expérience" },
+  { value: 20, suffix: "+", label: "Clients satisfaits" },
+  { value: 50, suffix: "+", label: "Projets terminés" },
+  { value: 90, suffix: "%", label: "Fidélisation des clients" },
 ];
 
 const logoIconsList = [
@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Pédagogie structurée",
+    desc: "Transmission claire et progressive des concepts informatiques, avec un fort accent sur la compréhension avant la pratique.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Approche pratique",
+    desc: "Apprentissage basé sur les TD, TP et projets réels afin de développer des compétences concrètes et directement applicables.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Innovation pédagogique",
+    desc: "Intégration des outils modernes et de l'IA pour améliorer la compréhension, l’autonomie et l’efficacité des étudiants.",
   },
 ];
 
@@ -147,7 +147,8 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
@@ -159,7 +160,8 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
@@ -171,7 +173,8 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
