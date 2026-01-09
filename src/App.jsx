@@ -5,7 +5,7 @@ import FeatureCards from "./sections/FeatureCards"
 import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import LogoShowcase from "./sections/LogoShowcase"
-import ShowCaseSection from "./sections/ShowCaseSection"
+import ShowCase from "./sections/ShowCase"
 import TechStack from "./sections/TechStack"
 import Testimonials from "./sections/Testimonials"
 
@@ -14,7 +14,7 @@ const App = () => {
     <>
         <NavBar />
         <Hero />
-        <ShowCaseSection />
+        <ShowCase />
         <LogoShowcase />
         <FeatureCards />
         <Experience />
