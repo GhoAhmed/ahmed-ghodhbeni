@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ShowcaseSection = () => {
+const ShowCaseSection = () => {
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
@@ -87,4 +87,4 @@ const ShowcaseSection = () => {
   );
 };
 
-export default ShowcaseSection;
+export default ShowCaseSection;
