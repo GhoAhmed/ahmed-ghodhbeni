@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ShowcaseSection = () => {
+const AppShowcase = () => {
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
@@ -53,10 +53,12 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                COLO - Plateforme de colocation immobilière
+                On-Demand Rides Made Simple with a Powerful, User-Friendly App
+                called Ryde
               </h2>
               <p className="text-white-50 md:text-xl">
-                Une application web permettant de partager et de louer des espaces de coliving. Développée avec .NET Core & Angular pour une expérience utilisateur fluide et des annonces dynamiques.
+                An app built with React Native, Expo, & TailwindCSS for a fast,
+                user-friendly experience.
               </p>
             </div>
           </div>
@@ -69,14 +71,14 @@ const ShowcaseSection = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>Plateforme d’Interview</h2>
+              <h2>The Library Management Platform</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>Blog Recherche & Collaboration</h2>
+              <h2>YC Directory - A Startup Showcase App</h2>
             </div>
           </div>
         </div>
@@ -85,4 +87,4 @@ const ShowcaseSection = () => {
   );
 };
 
-export default ShowcaseSection;
+export default AppShowcase;
